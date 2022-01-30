@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    border-top: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1437435409766-a478cc6da81a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+    background-size: cover;
+}
+#back #nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 100px;
+    align-items: center;
+    padding: 0%  10%;
+}
+#nav h1{
+    color:rgb(226, 197, 207);
+    font-family:  'IBM Plex Sans', sans-serif;;
+}
+
+#nav a{
+    font-family: gilroy;
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(226, 197, 207);
+}
+
+#nav a:hover{
+    color: tomato;
+}
+
+#mid{
+    position: relative;
+}
+
+#mid h1{
+    /* z-index: 10000%; */
+    font-family: ogg;
+    color: rgb(226, 197, 207);
+    line-height: 130px;
+    height: 500px;
+    width: 100%;
+    padding-left: 260px;
+    padding-top: 90px;
+    font-size: 150px;
+    /* background-color: peru; */
+}
+
+#mid img{
+    position: absolute;
+    height: 350px;
+    top: 50px;
+    left: 440px;
+}
+
+#ps{
+    display: flex;
+    margin: -2%;
+    margin-left: 16%;
+    height: 350px;
+    width: 900px;
+}
+
+#ps .pss{
+    height: 350px;
+    width: 300px;
+    color: whitesmoke;
+    font-family: gilroy
+}
+
+#ps1{
+    overflow: hidden;
+    background-color: navy;
+     position: relative;
+}
+
+#ps1 h1{
+     margin-top: 30px;
+     margin-left: 10px;
+        
+}
+#ps1 p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#ps1 img{
+    top: 40%;
+    left: -120px;
+    position: absolute;
+    height: 300px;
+}
+
+#ps2{
+    background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    background-size: cover;
+    
+    color:rgb(155, 61, 94); ;   
+}
+
+#ps2 h1{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+
+#ps2 p{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+#ps3{
+    background-color: rgb(143, 143, 212);
+}
+#ps3 h1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#ps3 p{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+#ps3 #num{
+    display: flex;
+   width: 300px;
+   height: 150px;
+}
+
+#num h1{
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+#num p {
+    margin-left: 10px;
+}
+
+#news{
+    border-top: 1px solid transparent;
+    font-family: gilroy;
+    height: 100%;
+    width: 100%;
+}
+
+#news h1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+#bipin{
+    height: 300px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://images.financialexpress.com/2021/12/CDS-Bipin-Rawat-IAF-chopper-crash-.jpg);
+    background-size: cover;
+    transform: translate(-50% -50%);
+}
+
+#pbipin h3{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#pbipin p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#park{
+    background-size: cover;
+    transform: translate(-50% -50%);
+    height: 200px;
+    width: 400px;
+    margin-left: 50%;
+    margin-top: -510px;
+    background-image: url(https://i.pinimg.com/564x/08/ec/43/08ec4338b866e265cd184c440c9179d5.jpg);
+}
+
+#deliv h3{
+    margin-left: 670px;
+    margin-top: 30px;
+}
+
+#ana{
+    height: 200px;
+    width: 400px;
+    margin-left: 60%;
+    margin-top: 20px;
+    background-image: url(https://i.pinimg.com/564x/7b/9d/59/7b9d591c6f102637fd37c9bccfe749f3.jpg);
+
+}
+
+#first h3{
+    margin-left: 810px;
+    margin-top: 20px;
+}
+
+#rating{
+    display: flex;
+    border-top: 1px solid transparent;
+    margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(21, 21, 97);
+    font-family: gilroy;
+    color: whitesmoke;
+}
+
+#left{
+    height: 500px;
+    width: 40%;
+    
+}
+#left h1{
+    font-size: 70px;
+    font-family: ogg;
+    line-height: 80px;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+#left p{
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+#left a{
+    margin-top: 20%;
+    margin-left: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+#right{
+    
+    height: 500px;
+    width: 60%;
+    /* background-color: saddlebrown; */
+}
+
+
+.line{
+    height: 70px;
+    width: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+#right span{
+    font-size: 80px;
+}
+
+#fac{
+    margin-top: 110px;
+    align-items: center;
+}
+#emp{
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+       
+}
+
+#emp span{
+    margin-right: 20px;
+}
+
+#nat{
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+#nat span{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
